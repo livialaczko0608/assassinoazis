@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="hu" class="alkalmazas_html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assassin Oázis</title>
+    <link rel="stylesheet" href="assassinoazis.css">
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
+    <link rel="icon" type="image/png" href="kepek/favicon.png">
+    <script defer src="teszt.js"></script>
+
+</head>
+<body>
+    <header>
+        <h1 class="fejlec">Assassin Oázis</h1>
+        
+    </header>
+    <main>
+        <h1>Személyiségteszt</h1>
+    </main>
+    <section id="szemelyiseg-teszt">
+        <h2>Melyik Assassin's Creed karakter vagy?</h2>
+
+  
+        <div class="kerdes">
+            <p>1. Válassz egy fegyvertípust!</p>
+            <label><input type="radio" name="q1" value="Ezio">Hidden Blade</label><br>
+            <label><input type="radio" name="q1" value="Arno">Füstbomba</label><br>
+            <label><input type="radio" name="q1" value="Connor">Tomahawk</label><br>
+            <label><input type="radio" name="q1" value="Bayek">Íj és kard</label><br>
+            <label><input type="radio" name="q1" value="Kassandra">Leonidas lándzsája</label>
+        </div>
+
+  
+        <div class="kerdes">
+            <p>2. Válassz egy úticélt!</p>
+            <label><input type="radio" name="q2" value="Ezio"> Olaszország</label><br>
+            <label><input type="radio" name="q2" value="Arno"> Franciaország</label><br>
+            <label><input type="radio" name="q2" value="Connor"> USA</label><br>
+            <label><input type="radio" name="q2" value="Bayek"> Egyiptom</label><br>
+            <label><input type="radio" name="q2" value="Kassandra"> Görögország</label>
+        </div>
+
+  
+        <div class="kerdes">
+            <p>3. Melyik tulajdonság jellemez leginkább?</p>
+            <label><input type="radio" name="q3" value="Ezio">Karizmatikus</label><br>
+            <label><input type="radio" name="q3" value="Arno">Precíz</label><br>
+            <label><input type="radio" name="q3" value="Connor">Bátor</label><br>
+            <label><input type="radio" name="q3" value="Bayek">Hűséges</label><br>
+            <label><input type="radio" name="q3" value="Kassandra">Szabad szellemű</label>
+
+        </div>
+
+        <div class="kerdes">
+            <p>4. Válassz egy színt!</p>
+            <label><input type="radio" name="q4" value="Ezio">Piros</label><br>
+            <label><input type="radio" name="q4" value="Arno">Kék</label><br>
+            <label><input type="radio" name="q4" value="Connor">Barna</label><br>
+            <label><input type="radio" name="q4" value="Bayek">Sárga</label><br>
+            <label><input type="radio" name="q4" value="Kassandra">Lila</label>
+        </div>
+
+        <div class="kerdes">
+            <p>5. Mit tennél, ha egy titkos térképre bukkannál?</p>
+            <label><input type="radio" name="q5" value="Ezio">Megtervezed a küldetést, és elegánsan, óvatosan követed</label><br>
+            <label><input type="radio" name="q5" value="Arno">Csendben és kitartóan követed, minden lépést átgondolva</label><br>
+            <label><input type="radio" name="q5" value="Connor">Rögtön útnak indulsz, bármi áron felfedezed</label><br>
+            <label><input type="radio" name="q5" value="Bayek">Gondosan felkészülsz, hogy biztonságban végigjárd</label><br>
+            <label><input type="radio" name="q5" value="Kassandra">Kreatívan, rugalmasan használod a lehetőségeket a felfedezéshez</label>
+        </div>
+
+
+
+    <button type="button" onclick="eredmenySzamito()">Teszt befejezése</button>
+
+
+    <div id="eredmeny"></div>
+    </section>
+    <footer>
+        <p>&copy; 2025 Assassin Oázis - Egy rajongói projekt.<br>
+            Ez a weboldal nem áll kapcsolatban a Ubisofttal.
+    </footer>
+</body>
+</html>

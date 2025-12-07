@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="hu" class="rajongoiurlap_html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assassin Oázis</title>
+    <link rel="stylesheet" href="assassinoazis.css">
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
+    <link rel="icon" type="image/png" href="kepek/favicon.png">
+    <script defer src="urlap.js"></script>
+
+</head>
+<body>
+    <header>
+        <h1 class="fejlec">Assassin Oázis</h1>
+        
+    </header>
+    <main>
+        <h1>Rajongói űrlap</h1>
+    <form id="rajongoi-urlap">
+
+    <label for="nev">Neved:</label>
+    <input type="text" placeholder="Pl. Kovács Béla">
+
+    
+
+    <label for="eletkor">Életkorod:</label>
+    <input type="number" min="1" max="100">
+    
+    
+    <div class="nem-valaszto">
+    <label>Nemed:</label>
+    <input type="radio" name="nem" value="ferfi">Férfi
+    <input type="radio" name="nem" value="no">Nő
+    <input type="radio" name="nem" value="egyeb">Egyéb
+    </div>
+
+
+    <label for="kedvenc">Kedvenc AC játék:</label>
+    <select id="kedvenc">
+        <option value="">-- Válassz --</option>
+        <option value="AC1">Assassin's Creed</option>
+        <option value="AC2">Assassin's Creed II</option>
+        <option value="ACBrotherhood">Assassin's Creed Brotherhood</option>
+        <option value="ACRevelations">Assassin's Creed Revelations</option>
+        <option value="AC3">Assassin's Creed III</option>
+        <option value="ACBlackflag">Assassin's Creed IV: Black Flag</option>
+        <option value="ACRogue">Assassin's Creed Rogue</option>
+        <option value="ACUnity">Assassin's Creed Unity</option>
+        <option value="ACSyndicate">Assassin's Creed Syndicate</option>
+        <option value="ACOrigins">Assassin's Creed Origins</option>
+        <option value="ACOdyssey">Assassin's Creed Odyssey</option>
+        <option value="ACValhalla">Assassin's Creed Valhalla</option>
+        <option value="ACMirage">Assassin's Creed Mirage</option>
+        <option value="ACShadows">Assassin's Creed Shadows</option>
+    </select>
+
+    <label for="hos">Kedvenc főhős:</label>
+    <input type="text" id="fohos" placeholder="pl. Ezio Auditore">
+
+
+
+    <label for="platform">Milyen platformon játszol?</label>
+    <select id="platform">
+        <option value="">--Válassz--</option>
+        <option value="PC">PC</option>
+        <option value="Xbox">Xbox</option>
+        <option value="Playstation">Playstation</option>
+        <option value="Nintendo">Nintendo</option>
+        <option value="Egyeb">Egyéb</option>
+    </select>
+
+    <label for="uzenet">Üzenet a közösségnek/fejlesztőknek:</label>
+    <textarea rows="4" cols="50"></textarea>
+
+    <button type="submit">Küldés</button>
+    </form>
+
+<p id="hiba"></p>
+</div>
+    </main>
+    <footer>
+        <p>&copy; 2025 Assassin Oázis - Egy rajongói projekt.<br>
+            Ez a weboldal nem áll kapcsolatban a Ubisofttal.
+    </footer>
+</body>
+</html>
